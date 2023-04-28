@@ -12,7 +12,7 @@ char *get_loc(char *command)
 	char **path, *temp;
 	list_t *dirs, *head;
 	struct stat st;
-	
+
 	path = _getenv("PATH");
 	if (!path || !(*path))
 		return (NULL);

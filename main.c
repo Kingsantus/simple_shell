@@ -25,7 +25,7 @@ int exec(char **args, char **front)
 	pid_t child_pid;
 	int status, flag = 0, ret = 0;
 	char *command = args[0];
-	
+
 	if (command[0] != '/' && command[0] != '.')
 	{
 		flag = 1;

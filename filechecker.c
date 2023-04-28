@@ -22,17 +22,17 @@ int cant_open(char *file_path)
 		free(hist_str);
 		return (127);
 	}
-	
+
 	_strcpy(error, name);
 	_strcat(error, ": ");
 	_strcat(error, hist_str);
 	_strcat(error, ": Can't open ");
 	_strcat(error, file_path);
 	_strcat(error, "\n");
-	
 	free(hist_str);
 	write(STDERR_FILENO, error, len);
 	free(error);
+
 	return (127);
 }
 
