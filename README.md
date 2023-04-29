@@ -1,5 +1,9 @@
 0x16. C - Simple Shell
 
+this project is all about the creation of personal shell, instead of the all builtin functions, the project is made to create a shell env and creating every aspect of it.
+from the project there are lot of function created to which was included in the main.c which holds the int main code
+the project is handled with different function and all prototype are saved in the main.h file.
+
 Simple shell project created by kingsantus and seyiadisa
 
 Tasks
